@@ -1,0 +1,24 @@
+{
+  "name": "credit-card-generator",
+  "version": "1.0.0",
+  "description": "Interactive credit card component with download functionality",
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "NODE_OPTIONS=\"--openssl-legacy-provider\" npm run build",
+    "deploy": "npm run build && git add dist/ -f && git commit -m 'Deploy to GitHub Pages' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yashkadekar/credit-card-generator.git"
+  },
+  "keywords": [
+    "vue",
+    "credit-card",
+    "interactive",
+    "download",
+    "component"
+  ],
+  "author": "Yash Kadekar",
+  "license": "MIT",
+  "homepage": "https://yashkadekar.github.io/credit-card-generator/"
+}
